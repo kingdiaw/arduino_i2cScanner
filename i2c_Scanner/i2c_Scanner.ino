@@ -1,5 +1,11 @@
 #include <Wire.h>
 
+/*
+ESP32 Devkit V1
+SDA_PIN -> 21
+SCL_PIN -> 22
+*/
+
 void setup() {
   Wire.begin();
   Serial.begin(115200);
